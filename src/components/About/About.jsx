@@ -3,7 +3,7 @@ import React from 'react';
 import Projects from './Projects';
 import Showblog from './Showblog';
 import Long from './Long';
-
+import cv from "../../.././public/assets/cv.png"
 const About = () => {
   const [activeComponent, setActiveComponent] = useState(null);
 
@@ -36,6 +36,12 @@ const About = () => {
         </button>
       </div>
       <div className='flex justify-center '>
+        {activeComponent === null &&  <button
+          onClick={() => handleButtonClick('Showblog')}
+          className=" flex mt-40 justify-center items-center bg-neutral-900 border-black border rounded-full text-white px-4 py-2 transition duration-300 hover:bg-white hover:text-black"
+        >
+          <img src={cv} className='' alt="" srcset="" /> 
+        Download CV</button>}
         {activeComponent === 'Showblog' && <Showblog />}
         {activeComponent === 'Long' && <Long />}
         {activeComponent === 'Projects' && <Projects />}

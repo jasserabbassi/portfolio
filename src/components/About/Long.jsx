@@ -19,9 +19,7 @@ I love to chat about tech, F1 and bitcoin.
 I used to have a newsletter called SlooLetter which was killed by Musk after him trying make twitter profitable.
 
 I am known on the internet as Shmoxd or, as my friends call him, rush (pronounced like bush).</p>
-I used to have a newsletter called SlooLetter which was killed by Musk after him trying make twitter profitable.
 
-I am known on the internet as Shmoxd or, as my friends call him, rush (pronounced like bush).
 <div className='flex mt-5'>
 <span>-Shmooooxd</span>
 </div>
