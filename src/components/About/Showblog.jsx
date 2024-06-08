@@ -3,7 +3,7 @@ import React from 'react'
 const Showblog = (isShortVisible) => {
   return (
     <div isShortVisible={isShortVisible}
-    className='mt-5 p-4 max-w-[50%] text-center justify-center '>
+    className='mt-5 p-4 max-w-[100%] lg:max-w-[50%] text-center justify-center '>
         <p className=' font-inter'>Hi there! My name is 
         <span className='text-green-500 font-bold'> jasser abbassi</span>
         , on the internet as 

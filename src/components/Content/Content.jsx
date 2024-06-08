@@ -5,7 +5,7 @@ const Content = () => {
   return (
     <div className='p-[1rem] grid-cols-2 flex font-inter  justify-center items-center  '>
       <div >
-      <h1 className='text-4xl   '> Jasser Abbassi</h1>
+      <h1 className='text-4xl'> Jasser Abbassi</h1>
       <div></div>
       <div className=''>
         

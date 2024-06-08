@@ -4,7 +4,7 @@ const Long = () => {
   return (
     <div
     
-    className='mt-5 p-4 max-w-[50%] text-center justify-center '>
+    className='mt-5 p-4 max-w-[100%] lg:max-w-[50%] text-center justify-center  '>
         <p> Well, hello there! My name is jasser, and you can find me on the internet as Shmoxd
 
 I am a Programming language Developer and Tester.
