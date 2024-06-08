@@ -16,21 +16,21 @@ const About = () => {
       <div className='flex justify-center space-x-20'>
         <button
           onClick={() => handleButtonClick('Showblog')}
-          className="bg-transparent border-black border rounded-full text-white px-4 py-2 transition duration-300 hover:bg-white hover:text-black"
+          className="bg-neutral-900 border-black border rounded-full text-white px-4 py-2 transition duration-300 hover:bg-white hover:text-black"
         >
           SHORT
         </button>
 
         <button
           onClick={() => handleButtonClick('Long')}
-          className="bg-transparent border-black border rounded-full text-white px-4 py-2 transition duration-300 hover:bg-white hover:text-black"
+          className="bg-neutral-900	 border-black border rounded-full text-white px-4 py-2 transition duration-300 hover:bg-white hover:text-black"
         >
           LONG
         </button>
 
         <button
           onClick={() => handleButtonClick('Projects')}
-          className="bg-transparent border-black border rounded-full text-white px-4 py-2 transition duration-300 hover:bg-white hover:text-black"
+          className="bg-neutral-900 border-black border rounded-full text-white px-4 py-2 transition duration-300 hover:bg-white hover:text-black"
         >
           Projects
         </button>
